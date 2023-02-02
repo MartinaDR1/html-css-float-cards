@@ -11,13 +11,53 @@ body{
     font-family: 'Fredoka', sans-serif;
 }
 
+/*Header */
+
 h1{
     color: #e53170;
 }
 
-h1, p{
+h1, .up-main{
     text-align: center;
     margin: 20px;
     padding-bottom: 15px;
+}
+
+/* card*/ 
+
+.card {
+    float: left;
+    width: calc(100% / 3 - 30px);
+    margin: 20px 15px;
+    
+    background-color: #0f0e17;
+    box-shadow: 3px 3px 3px 3px lightgray;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+img, .card{
+    max-height: 90px;
+    float: left;
+    padding-right: 10px;
+}
+
+.text-card{
+    color: white;
+    line-height: 30px;
+}
+
+.job{
+    font-size: 12px;
+}
+
+.email{
+    text-decoration: none;
+    color: #33758b;
+    display: block;
 }
 
