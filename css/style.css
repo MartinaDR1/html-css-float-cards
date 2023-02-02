@@ -11,3 +11,13 @@ body{
     font-family: 'Fredoka', sans-serif;
 }
 
+h1{
+    color: #e53170;
+}
+
+h1, p{
+    text-align: center;
+    margin: 20px;
+    padding-bottom: 15px;
+}
+
